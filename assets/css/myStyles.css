@@ -1,0 +1,79 @@
+.navbar-page {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	margin-top: 2rem;
+    border-radius: 5px;
+    color: black;
+}
+.navbar-page a{
+    text-decoration: none !important;
+	color: #f8f9fa;
+}
+
+
+.icon-box{
+	width: 65px !important;
+	height: 65px !important;
+	padding: 0.5rem;
+	border: 2px solid #fff;
+	border-radius: 100%;
+}
+
+._box-shadow{
+	box-shadow: 1px 1px 4px;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 1%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.438);
+}
+@media screen and (max-width: 576px) {
+	#copyright {
+		position: fixed;
+		font-size: 1.5vh;
+		bottom: 1%;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.438);
+	}
+}
+@media screen and (min-width: 577px) {
+	#copyright {
+		position: fixed;
+		font-size: 1.5vh;
+		bottom: 1%;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.438);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#copyright {
+		position: fixed;
+		font-size: 1.5vh;
+		bottom: 1%;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.438);
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	.btn-dl {
+		margin-top: auto;
+	}
+	.ntf-bg{
+		width:300px;
+	}
+	.ntf-font{
+		font-size:12px;
+	}
+}
+
+@media screen and (min-width: 577px) {
+	.btn-dl {
+		margin-top: -60px!important;
+	}
+}
